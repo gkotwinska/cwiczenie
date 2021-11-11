@@ -1,0 +1,49 @@
+body
+{background: #36454F;
+text-align: center;
+font-family: "Segoe Print" , "Buxton Sketch" ;
+font-size:12pt;
+color:white;
+}
+/* autor: Gabriela Kotwińska*/
+#blum1 {
+	font-size:12 px;
+	background:pink;
+	width:150px;
+	height:150px;
+	left :50px;
+	top: 50px;
+	box-shadow:purple 0.5em 0.5em 0.5em;
+	opacity: 0.8;
+
+}
+#blum2{
+	font-size:12 px;
+	background: purple;
+	width:150px;
+	height:150px;
+	left :50px;
+	top: 50px;
+	box-shadow: pink 0.8em 0.8em 0.8em;
+	opacity: 0.8;
+}
+#blum3{
+	font-size:12 px;
+	background:blue;
+	width:150px;
+	height:150px;
+	left :50px;
+	top: 50px;
+	box-shadow: white 0.5em 0.5em 0.5em;
+	opacity: 0.6;
+}
+#blum4{
+	font-size:12 px;
+	background: red;
+	width:150px;
+	height:150px;
+	left :50px;
+	top: 50px;
+	box-shadow: #660033 0.8em 0.8em 0.8em;
+	opacity: 0.8;
+}
