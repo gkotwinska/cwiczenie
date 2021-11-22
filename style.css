@@ -1,49 +1,80 @@
-body
-{background: #36454F;
-text-align: center;
-font-family: "Segoe Print" , "Buxton Sketch" ;
-font-size:12pt;
-color:white;
+/*Autor Gabriela Kotwińska */
+
+body{
+	background-image:url(co.jpg);
+	font-size:25px;
+	text-align:center;
+	background-attachment: fixed; /*responsywnosc */
+	background-repeat: no-repeat;
 }
-/* autor: Gabriela Kotwińska*/
-#blum1 {
-	font-size:12 px;
-	background:pink;
-	width:150px;
-	height:150px;
-	left :50px;
-	top: 50px;
-	box-shadow:purple 0.5em 0.5em 0.5em;
-	opacity: 0.8;
+#div1{
+	background:white;
+	font-size:15px;
+	text-align:left;
+	color:grey;
+	font-family:'Verdana';
+	width:40%;
+	height:46%;
+	position:absolute;
+	left:1%;
+	top:12%;
+	border-radius: 15px;
+}
+h1{
+	font-family:'Georgia';
+	font-size:25px;
+	text-align:center;
+}	
+h2{ font-family:'cursive';
+font-size:15px;
 
 }
-#blum2{
-	font-size:12 px;
-	background: purple;
-	width:150px;
-	height:150px;
-	left :50px;
-	top: 50px;
-	box-shadow: pink 0.8em 0.8em 0.8em;
-	opacity: 0.8;
+#menu{
+font-weight:bold;
+padding:10px;
+margin:15px;
 }
-#blum3{
-	font-size:12 px;
-	background:blue;
-	width:150px;
-	height:150px;
-	left :50px;
-	top: 50px;
-	box-shadow: white 0.5em 0.5em 0.5em;
-	opacity: 0.6;
+#menu li{
+font-size: 15px;
+background-color:white;
+float:left;
+display: block;
+width:10vw;
+height:15px;
+cursor: pointer;
+color: #607d8b;
+border-radius:5px;
+border-width: 10px;
+
 }
-#blum4{
-	font-size:12 px;
-	background: red;
-	width:150px;
-	height:150px;
-	left :50px;
-	top: 50px;
-	box-shadow: #660033 0.8em 0.8em 0.8em;
-	opacity: 0.8;
+#menu li li{
+float: none;
 }
+#menu li li a{
+text-decoration: none;
+color:black;
+}
+#menu li ul{
+display: none;
+padding:0px;
+}
+#menu li:hover ul{
+
+display: block;
+color: black;
+opacity: 0.8;
+}
+
+a{
+text-decoration:none;
+color:black;
+}
+a:hover{
+text-decoration:none;
+color: grey;
+font-weight: bold;
+}
+
+
+	
+

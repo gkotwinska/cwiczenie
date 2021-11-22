@@ -1,33 +1,60 @@
 <!DOCTYPE HTML>
-<html lang="pl"> 
-<!---Gabriela Kotwińska--->
-<head>
-<meta charset="utf-8">
-<meta name="Description" content="Strona na ocene">
-<meta name="Keywords" content="test, ocena">
-<meta name="Author" content="Gabriela Kotwińska">
-<meta name="robots" content="all">
+<html lang="pl">
 
-<title>
-Szablon strony CSS
-</title>
+<head>
+
+<meta charset="utf-8">
+<meta name="Desctription" content="Książki,autorzy,ostatnio przeczytane">
+<meta name="Keywords" content="Książki, autorzy, książkoholicy">
+<meta name="Author" content="Gabriela Kotwińska">
+
+
+<title>Książki</title>
+
+
 <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-
 <body>
-TEKST STRONA NA OCENĘ GABRIELA KOTWIŃSKA
 
-<div id="simplecookienotification_v01" style="display: block; z-index: 99999; min-height: 35px; width: 100%; position: fixed; background: rgb(31, 31, 31) none repeat scroll 0% 0%; border-image: none 100% / 1 / 0 stretch; border-style: solid none none; border-width: 5px 0px 0px; border-color: rgb(198, 198, 198); text-align: center; right: 0px; color: rgb(119, 119, 119); bottom: 0px; left: 0px; border-radius: 5px;">
+
+<div id="simplecookienotification_v01" style="display: block; z-index: 99999; min-height: 35px; width: 100%; position: fixed; background: rgb(252, 228, 236) none repeat scroll 0% 0%; border-image: none 100% / 1
+ / 0 stretch; border-style: outset none none; border-width: 2px 0px 0px; border-color: rgb(233, 30, 99); text-align: center; right: 0px; color: rgb(119, 119, 119); bottom: 0px; left: 0px; border-radius: 0px; box-shadow: rgba(0, 0, 0, 0.6) 2px 2px 3px 0px;">
 <div style="padding:10px; margin-left:15px; margin-right:15px; font-size:14px; font-weight:normal;">
-<span id="simplecookienotification_v01_powiadomienie">Ta strona używa plików cookie w celu usprawnienia i ułatwienia dostępu do serwisu oraz prowadzenia danych statystycznych. Dalsze korzystanie z tej witryny oznacza akceptację tego stanu rzeczy.</span><span id="br_pc_title_html"><br></span>
-<a id="simplecookienotification_v01_polityka" href="http://jakwylaczyccookie.pl/polityka-cookie/" style="color: rgb(198, 198, 198);">Polityka Prywatności</a><span id="br_pc2_title_html"> &nbsp;&nbsp; </span>
-<a id="simplecookienotification_v01_info" href="http://jakwylaczyccookie.pl/jak-wylaczyc-pliki-cookies/" style="color: rgb(198, 198, 198);">Jak wyłączyć cookies?</a><span id="br_pc3_title_html"> &nbsp;&nbsp; </span>
-<a id="simplecookienotification_v01_info2" href="https://nety.pl/cyberbezpieczenstwo" style="color: rgb(198, 198, 198);">Cyberbezpieczeństwo</a><div id="jwc_hr1" style="height: 10px; display: none;"></div>
-<a id="okbutton" href="javascript:simplecookienotification_v01_create_cookie('simplecookienotification_v01',1,7);" style="position: absolute; background: rgb(198, 198, 198) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 5px 15px; text-decoration: none; font-size: 12px; font-weight: normal; border: 0px solid rgb(31, 31, 31); border-radius: 5px; top: 5px; right: 5px;">ROZUMIEM</a><div id="jwc_hr2" style="height: 10px; display: none;"></div>
+<span id="simplecookienotification_v01_powiadomienie">Używamy cookies w celach funkcjonalnych, aby ułatwić użytkownikom korzystanie z witryny oraz w celu tworzenia anonimowych statystyk serwisu. Jeżeli nie blokujesz plików cookies, 
+to zgadzasz się na ich używanie oraz zapisanie w pamięci urządzenia.</span><span id="br_pc_title_html"><br></span>
+<a id="simplecookienotification_v01_polityka" href="http://jakwylaczyccookie.pl/polityka-cookie/" style="color: rgb(233, 30, 99);">Polityka Prywatności</a><span id="br_pc2_title_html"> &nbsp;&nbsp; </span>
+<a id="simplecookienotification_v01_info" href="http://jakwylaczyccookie.pl/jak-wylaczyc-pliki-cookies/" style="color: rgb(233, 30, 99);">Jak wyłączyć cookies?</a><span id="br_pc3_title_html"> &nbsp;&nbsp; </span>
+<a id="simplecookienotification_v01_info2" href="https://nety.pl/cyberbezpieczenstwo" style="color: rgb(233, 30, 99);">Cyberbezpieczeństwo</a><div id="jwc_hr1" style="height: 10px; display: none;"></div>
+<a id="okbutton" href="javascript:simplecookienotification_v01_create_cookie('simplecookienotification_v01',1,7);" style="position: absolute; background: rgb(233, 30, 99) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 5px 15px; text-decoration: none; font-size: 12px; font-weight: normal; border: 0px solid rgb(252, 228, 236);
+ border-radius: 0px; top: 5px; right: 5px;">ZGODA</a><div id="jwc_hr2" style="height: 10px; display: none;"></div>
 </div>
 </div>
-<script type="text/javascript">var galTable= new Array(); var galx = 0;</script><script type="text/javascript">function simplecookienotification_v01_create_cookie(name,value,days) { if (days) { var date = new Date(); date.setTime(date.getTime()+(days*24*60*60*1000)); var expires = "; expires="+date.toGMTString(); } else var expires = ""; document.cookie = name+"="+value+expires+"; path=/"; document.getElementById("simplecookienotification_v01").style.display = "none"; } function simplecookienotification_v01_read_cookie(name) { var nameEQ = name + "="; var ca = document.cookie.split(";"); for(var i=0;i < ca.length;i++) { var c = ca[i]; while (c.charAt(0)==" ") c = c.substring(1,c.length); if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length); }return null;}var simplecookienotification_v01_jest = simplecookienotification_v01_read_cookie("simplecookienotification_v01");if(simplecookienotification_v01_jest==1){ document.getElementById("simplecookienotification_v01").style.display = "none"; }</script>
+<script type="text/javascript">var galTable= new Array(); var galx = 0;</script><script type="text/javascript">function simplecookienotification_v01_create_cookie(name,value,days) { if (days) { var date = new Date(); date.setTime(date.getTime()+(days*24*60*60*1000)); var expires = "; expires="+date.toGMTString(); }
+ else var expires = ""; document.cookie = name+"="+value+expires+"; path=/"; document.getElementById("simplecookienotification_v01").style.display = "none"; 
+} function simplecookienotification_v01_read_cookie(name) 
+{ var nameEQ = name + "="; var ca = document.cookie.split(";"); for(var i=0;i < ca.length;i++) { var c = ca[i]; while (c.charAt(0)==" ") c = c.substring(1,c.length); if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length); }return null;}var simplecookienotification_v01_jest
+ = simplecookienotification_v01_read_cookie("simplecookienotification_v01")
+;if(simplecookienotification_v01_jest==1)
+{ document.getElementById("simplecookienotification_v01").style.display = "none"; }</script>
 
 
+
+<center>
+<ul id="menu">
+<a href="index.html"><li>Strona Główna</li></a>
+<a href="1.html"><li>Ostatnio przeczytane</li></a>
+<a href="2.html"><li>Ulubione książki</li></a>
+<a href="autor.html"><li> O mnie </li></a>
+
+<br><br><br><br><br><br><br>
+
+
+
+<div id="div1"><h1>STRONA GŁÓWNA</h1>
+abc
+</div>
+
+</ul>
+</center>
 </body>
 </html>
