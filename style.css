@@ -14,7 +14,50 @@ body{
 	color:grey;
 	font-family:'Verdana';
 	width:40%;
-	height:46%;
+	height:80%;
+	position:absolute;
+	left:1%;
+	top:12%;
+	border-radius: 15px;
+	
+}
+#div2{
+	background-image: url(kwiaty2.jpg);
+	font-size:15px;
+	text-align:left;
+	color:grey;
+	font-family:'Verdana';
+	font-size:20px;
+	width:40%;
+	height:50%;
+	position:absolute;
+	left:1%;
+	top:12%;
+	border-radius: 15px;
+}
+#div3{
+	background-image: url(pastel.jpg);
+	font-size:15px;
+	text-align:left;
+	color:grey;
+	font-family:'Verdana';
+	font-size:20px;
+	width:40%;
+	height:60%;
+	position:absolute;
+	left:1%;
+	top:12%;
+	border-radius: 15px;
+}
+#div4{
+	background-image: url(liscie.png);
+	font-size:10px;
+	text-align:left;
+	color:grey;
+	font-family:'Verdana';
+	font-size:15px;
+	width:40%;
+	height:80%;
 	position:absolute;
 	left:1%;
 	top:12%;
@@ -22,12 +65,13 @@ body{
 }
 h1{
 	font-family:'Georgia';
-	font-size:25px;
+	font-size:30px;
 	text-align:center;
 }	
 h2{ font-family:'cursive';
-font-size:15px;
-
+font-size:20px;
+text-decoration: underline;
+font-style: oblique; /*kursywa*/
 }
 #menu{
 font-weight:bold;
@@ -40,11 +84,15 @@ background-color:white;
 float:left;
 display: block;
 width:10vw;
-height:15px;
+height:25px;
 cursor: pointer;
 color: #607d8b;
-border-radius:5px;
-border-width: 10px;
+border-radius:10px;
+border-width: 50px;
+transition: all 0.25s ease-out;
+transform: rotate(-2.9deg);
+box-shadow:  0.8em 0.8em 0.8em;
+
 
 }
 #menu li li{
@@ -58,23 +106,14 @@ color:black;
 display: none;
 padding:0px;
 }
-#menu li:hover ul{
 
-display: block;
-color: black;
-opacity: 0.8;
-}
 
-a{
-text-decoration:none;
-color:black;
-}
-a:hover{
-text-decoration:none;
-color: grey;
-font-weight: bold;
-}
 
+
+span{
+	
+	
+}
 
 	
 
