@@ -78,42 +78,15 @@ font-weight:bold;
 padding:10px;
 margin:15px;
 }
-#menu li{
-font-size: 15px;
-background-color:white;
-float:left;
-display: block;
-width:10vw;
-height:25px;
-cursor: pointer;
-color: #607d8b;
-border-radius:10px;
-border-width: 50px;
-transition: all 0.25s ease-out;
-transform: rotate(-2.9deg);
-box-shadow:  0.8em 0.8em 0.8em;
-
-
-}
-#menu li li{
-float: none;
-}
-#menu li li a{
-text-decoration: none;
-color:black;
-}
-#menu li ul{
-display: none;
-padding:0px;
-}
 
 
 
 
-span{
-	
-	
-}
+
+
+
+
+
 
 	
 
