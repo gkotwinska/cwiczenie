@@ -4,7 +4,7 @@ body{
 	background-image:url(co.jpg);
 	font-size:25px;
 	text-align:center;
-	background-attachment: fixed; /*responsywnosc */
+	background-attachment: fixed; /*stałe względem okna */
 	background-repeat: no-repeat;
 }
 #div1{
