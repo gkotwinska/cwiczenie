@@ -62,7 +62,7 @@ html, body{
 	animation-name: drive;
 	animation-duration:10s;
 	animation-fill-mode: both;
-	animation-delay: 10s;
+	animation-delay: 20s;
 	animation-iteration-count: infinite;
 }
 @keyframes drive{
