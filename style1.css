@@ -1,0 +1,71 @@
+html, body{
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  margin: 0;
+  
+}
+
+.grass, .sky, .road, .baner{
+  position: relative;
+}
+
+.sky{
+  height: 30%;
+  width: 100%;
+  background: skyblue;
+}
+
+.baner{
+	height:20%;
+	width: 100%;font-weight: bold;
+	letter-spacing: 8px;
+	font-size: 180px;
+	font-family: Helvetica, sans-serif;	
+	text-align: center;
+    animation: color-change 1s infinite;
+}
+
+
+@keyframes color-change {
+  0% { color: pink; }
+  50% { color: hotpink; }
+  100% { color: deeppink; }
+}
+
+.grass{
+  height: 30%;
+  background: seagreen;
+}
+
+.road{
+  height: 40%;
+  background: dimgrey;
+  box-sizing: border-box;
+  border-top: 10px solid grey;
+  border-bottom: 10px solid grey;
+  width: 100%;
+}
+
+.lines{
+  box-sizing: border-box;
+  border: 5px dashed #fff;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+.bolid {
+	position:absolute;
+	--top: -120px;
+	right: -100%;
+	animation-name: drive;
+	animation-duration:1.5s;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes drive{
+	from{ transform: translateX(-1000%)}
+	to { transform: tranlateX(1000%)}
+}
