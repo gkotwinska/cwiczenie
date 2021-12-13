@@ -66,6 +66,6 @@ html, body{
 	animation-iteration-count: infinite;
 }
 @keyframes drive{
-	from{ transform: translateX(-100%)}
-	to { transform: tranlateX(100%)}
+	from{ transform: translateX(-1000%)}
+	to { transform: tranlateX(1000%)}
 }
